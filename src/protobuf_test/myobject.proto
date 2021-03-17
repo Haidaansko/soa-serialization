@@ -1,0 +1,13 @@
+syntax = "proto2";
+
+package tutorial;
+
+message MyObject {
+  required int32 PackageID = 1;
+  required int32 PersonID = 2;
+  required string Name = 3;
+
+  map<int32, int32> Inventory = 4;
+
+  required string CurrentLocation = 5;
+}

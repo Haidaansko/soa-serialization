@@ -1,0 +1,7 @@
+avro
+msgpack
+protobuf
+pyyaml
+simplejson
+tabulate
+xmltodict

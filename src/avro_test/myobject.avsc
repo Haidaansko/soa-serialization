@@ -1,0 +1,11 @@
+{"namespace": "example.avro",
+ "type": "record",
+ "name": "MyObject",
+ "fields": [
+     {"name": "PackageID", "type": "int"},
+     {"name": "PersonID", "type": "int"},
+     {"name": "Name", "type": "string"},
+     {"name": "Inventory", "type": {"type": "map", "values": "int"}},
+     {"name": "CurrentLocation", "type": "string"}
+ ]
+}
